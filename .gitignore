@@ -1,0 +1,40 @@
+.DS_Store
+
+# CMake build trees and generated metadata
+/build/
+/build-*/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Testing/
+/compile_commands.json
+/CMakeUserPresets.json
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Coverage and profiling output
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+
+# Editor and tooling caches
+/.cache/
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+.helix
